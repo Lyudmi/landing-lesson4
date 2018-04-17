@@ -556,7 +556,7 @@ body {
 	cursor: pointer;
 }
 	/*style for what that says*/
-	.img-says img{ 
+.img-says img{ 
  	width: 100%; 
  	max-width: 323px; 
  	box-shadow: 0 0 5px 1px silver, -80px 0px 0px -38px #ecedef, 80px 0 0 -38px #ecedef;
@@ -617,6 +617,121 @@ body {
 	background: #71f6eb;
 
 }   
+
+/*style for partners*/
+.partners_page .modal img{
+	width: 100%;
+	max-width: 1130px;
+}
+/*style for contact form*/
+.contact-form{
+	background: url(img/christmas.png)no-repeat center center;
+		
+}
+.form_opasity{
+	background: rgba(255,255,255, 0.7);
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+.contact-form_page{
+	max-width: 1440px;
+	margin: 0 auto;	
+}
+
+.form-left {
+	display: inline-block;
+	float: left;
+    width: calc(60% - 150px);
+    background: #262b2e;
+    opacity: 0.5;
+    margin-left: 45px;
+}
+.form-left form {
+	width: 100%;
+
+}
+.form-control {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+
+.form-control:focus {
+	border-color: black;
+}
+
+[type="text"] {
+	width: 85%;
+    margin: 10px 30px; 
+    padding: 20px 10px;
+
+}
+textarea{
+outline: none;
+resize: none;
+border-top: 0;
+border-right: 0;
+border-left: 0;
+ border-bottom-width:2px;
+ border-radius: 0;
+ width: 95%;
+ background: transparent;
+  opacity: 0.5;
+  color: white;
+  overflow: auto;
+  width: 88%;
+  margin-left: 30px;
+  height: 100px;
+  text-align: left;
+  
+}
+#prse:placeholder {
+    color: red;
+}
+
+
+.btn--form {
+  padding: 20px 37px;
+  font-size: 16px;
+  font-weight: 600;
+  background:#6eeee4;
+  border-style:none;
+  opacity: 1;
+  margin: 20px 38px;
+} 
+ .form-adress-right{
+ 	display: inline-block;
+    width: calc(40% - 10px);
+    background: #262b2e;
+    opacity: 0.5;
+    margin-left: 50px;
+    padding-left: 22px;
+    padding-top: 20px;
+ } 
+ .form-adress-right p,.form-adress-right address{
+ 	padding-top: 2px;
+ 	margin: 0;
+ 	color: white; 	
+ }
+ .form-adress-right p a{
+ 	text-decoration: none;
+ 	color: white;
+ 	
+ }
+ .form-adress-right p a{
+ 	text-decoration: none;
+ 	color: white;
+ 	
+ }
+ .form-adress-right div{
+ 	padding-top: 20px;
+ }
+ .form-adress-right div img{
+ 	padding-bottom:20px;
+ }
+
 /**/
 footer{
 	padding: 0 75px;
