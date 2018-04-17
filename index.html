@@ -13,17 +13,19 @@
 				<img src="img/shopno-logo.png" alt="logo">
 			</div>
 			<div class="nav_icon" id="menuToggle">
-				<!--  <input type="checkbox" /> -->
+				 <input type="checkbox" />
 				  <span></span>
 				  <span></span>
 				  <span></span>
-				 	 <!-- <ul id="menu">
-					      <a href="#"><li>Home</li></a>
-					      <a href="#"><li>About</li></a>
-					      <a href="#"><li>Info</li></a>
-					      <a href="#"><li>Contact</li></a>
-					      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-					 </ul> -->
+				 	 <ul id="menu">
+					      <li><a href="#about">About</a></li>
+					      <li><a href="#featured">Featured works</a></li>
+					      <li><a href="#services">Our services</a></li>
+					      <li><a href="#team">Small team</a></li>
+					      <li><a href="#says" >What they says</a></li>
+					      <li><a href="#partners" >Partners</a></li>
+					      <li><a href="#contacts" >Contacts</a></li>
+					 </ul>
 			</div>
 			<div class="main_caption">
 				<h1>
@@ -32,7 +34,7 @@
 					<img src="img/orange-juice.png" alt="orange-juice">
 				</h1>
 			</div>
-			<div class="contact">
+			<div class="contact" id="contact">
 				<a href="contact_us">CONTACT US </a>
 			</div>
 		</div>
@@ -40,7 +42,7 @@
 	<div class="container about">
 		<div class="m_width  about_page">
 			<div class="modal">
-				<h2>ABOUT US</h2>
+				<h2 id="about">ABOUT US</h2>
 				<h3>LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</h3>
 			</div>
 			<div class="wrap">
@@ -80,7 +82,7 @@
 <div class="container featured">
 		<div class="m_width  featured_page">
 			<div class="modal feature_chapter">
-				<h2>featured works</h2>
+				<h2 id="featured">featured works</h2>
 				<h3>Lorem ipsum dolor sit amet event landing template</h3>
 			</div>
 			<div class="img_wrap">
@@ -98,7 +100,7 @@
 <div class="container services">
 		<div class="m_width  services_page">
 			<div class="modal services_chapter">
-				<h2>our services</h2>
+				<h2 id="services">our services</h2>
 				<h3>Lorem ipsum dolor sit amet event landing template</h3>
 			</div>
 			<div class="wrapper_img">
@@ -207,7 +209,7 @@
 <div class="container team">
 		<div class="m_width  team_page">
 			<div class="modal team_chapter">
-				<h2>small team</h2>
+				<h2 id="team">small team</h2>
 				<h3>Lorem ipsum dolor sit amet event landing template</h3>
 			</div>
 			<div class="team_wrapper_img">
@@ -333,7 +335,7 @@
 <div class="container says">
 		<div class="m_width  says_page">
 			<div class="modal">
-				<h2>what they says</h2>
+				<h2 id="says">what they says</h2>
 				<h3>LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</h3>
 			</div>
 			<div class="wrap">
@@ -382,7 +384,7 @@
 <!-- start partners  container-->
 <div class="container partners">
 		<div class="m_width  partners_page">
-			<div class="modal">
+			<div class="modal" id="partners">
 				<img src="img/partners.png" alt="">
 			</div>
 			
@@ -391,7 +393,7 @@
 <!-- end partners  container-->
 
 <!-- start partners  container-->
-<div class="contact-form">
+<div class="contact-form" id="contacts">
 	<div class="container form_opasity">
 		<div class="m_width  contact-form_page">
 			<div class="form-left">
@@ -409,9 +411,7 @@
 				        <input class="form-control" type="text" name="email" id="email" placeholder="Email*" required />
 				      </div>
 				      <div class="form-group">
-				        <textarea name="message" id="prse"  placeholder="Оставьте сообщение здесь" required >
-				        
-				        </textarea>
+				        <textarea name="message" id="prse" placeholder="Message*" required ></textarea>
 				      </div>
      
 				      <div class="m_btn">
