@@ -207,11 +207,11 @@ body {
     margin-left: -86px;
 }
 /*about list*/
-.about{
+.about, .says{
 	background: #f8fafa;
 	text-align: center;
 }
-.about_page{
+.about_page, .says_page{
 	max-width: 1440px;
 	/*width: 100%;*/
 	margin: 0 auto;
@@ -223,7 +223,9 @@ body {
 .services_chapter h2,
 .services_chapter h3,
 .team_chapter h3,
-.team_chapter h2{
+.team_chapter h2,
+.says_page h2,
+.says_page h3,{
 	margin: 0;
 	padding: 0;
 }
@@ -463,6 +465,7 @@ body {
 	max-width: 1440px;
 	/*width: 100%;*/
 	margin: 0 auto;
+	padding-bottom: 102px;
 }
 .team_chapter{
 	padding-bottom: 123px;
@@ -552,7 +555,68 @@ body {
 	transform: translateX(0);
 	cursor: pointer;
 }
+	/*style for what that says*/
+	.img-says img{ 
+ 	width: 100%; 
+ 	max-width: 323px; 
+ 	box-shadow: 0 0 5px 1px silver, -80px 0px 0px -38px #ecedef, 80px 0 0 -38px #ecedef;
+}
+.says_left {
+	display: inline-block;
+	width: calc(40% - 70px);
+	padding-left:  38px;
+}
+.says_right {
+	display: inline-block;
+    width: calc(60% - 83px);
+    margin-left: 80px;
+    vertical-align: top;
+    /* background: #eaebed; */
+}
+.says_right .says_info{
+	background: #eaebed;
+	padding-top: 100px; 
 	
+}
+.says_right .says_info h3{
+	font-family: 'Merriweather', serif;
+	color: #646565;
+	font-weight: 600;
+	line-height: 28px;
+	text-transform: uppercase;
+	padding: 0 80px;
+
+}
+.says_right h3 span{
+	
+	opacity: 0.7;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+.says_info p{
+	font-family: 'Raleway', sans-serif;
+	color: #646565;
+	line-height: 16px;
+	opacity: 0.7;
+	letter-spacing: 1.5px;
+	padding: 30px 80px;
+	
+}
+.nav-slider{
+	 display: flex;
+    justify-content: flex-end;
+	} 
+.nav-slider img{
+	padding: 20px;
+    margin: 15px;
+    box-shadow: 1px 2px 4px 0px silver;
+}
+.slider-left {
+	background: #71f6eb;
+
+}   
 /**/
 footer{
 	padding: 0 75px;
