@@ -73,7 +73,6 @@ body {
   height: 4px;
   width: 100%;
   background: black;
-  opacity: 0.6;
   border-radius: 4px;
   right: 0;
 
@@ -104,50 +103,7 @@ body {
 }
 .nav_icon:hover span:nth-child(2){
   display: none;
-  
 }
-/*#menuToggle
-{
-  z-index: 1;
-  user-select: none;
-}*/
-
-/*#menuToggle input
-{
-  display: block;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0; 
-  z-index: 2;
-
-}*/
-/*#menuToggle span
-{
-  position: relative; 
-  z-index: 1;
-}*/
-
-/*#menu
-{
-  position: absolute;
-  width: 300px;
-  margin: -131px 28px 15px 265px;
-  padding-top: 105px;
-  background: #ededed;
-  list-style-type: none;
-  transform-origin: 0% 0%;
-  transform: none;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}*/
-
-
-/*#menuToggle input:checked ~ ul
-{
-  
-  transform: translate(-100%, 0);
-}*/
 
 /*header caption*/
 .main_caption{
@@ -216,7 +172,7 @@ body {
 	/*width: 100%;*/
 	margin: 0 auto;
 }
-.about_page h2, .about_page h3, .feature_chapter h2, .feature_chapter h3, .services_chapter h2, .services_chapter h3{
+.about_page h2, .about_page h3{
 	margin: 0;
 	padding: 0;
 }
@@ -272,10 +228,6 @@ body {
 	letter-spacing: 1.5px;
 
 }
-.slider {
-	padding-top: 40px;
-    padding-bottom: 113px;
-}
 
 /*featured*/
 .featured{
@@ -309,145 +261,7 @@ body {
 .img_wrap{
 	padding-bottom: 112px;
 }
-
-
-/*list services*/
-.services{
-	background: #f9fbfb;
-	text-align: center;
-}
-.services_page{
-	max-width: 1440px;
-	margin: 0 auto;
-}
-.services_chapter{
-	padding-bottom: 123px;
-	padding-top: 124px;
-}
-
-.wrapper_img div{
-	display: inline-block;
-	width: calc(42% - 14px);
-	margin: 0 0 14px 14px;
-	padding: 0;
-	position: relative;
-	overflow: inherit;
-}
-.wrapper_img div:nth-of-type(1){
-	width: calc(56% - 14px);	
-}
-.wrapper_img div:nth-child(3n){
-	width: calc(56% - 14px);	
-}
-
-.wrapper_img img{
 	
-	width: 100%;
-	height: 422px;
-	margin: 0;
-	padding: 0;
-	background-size: contain;
-}
-.wrapper_img figure{
-	position: relative;
-	margin: 0;
-	padding: 0;
-}
-.wrapper_img div figure  figcaption{
-	position: absolute;
-	margin: 0;
-	padding: 0 90px 0 70px;
-	top: 0;
-	height: 422px;
-	width: inherit;
-	background: black;
-	text-align: justify;
-	opacity: 0;
-	transition: 0.5s;
-	transform: translateX(20px);
-	width: inherit;
-	
-}
-.wrapper_img div:nth-of-type(1) figure  figcaption{
-	position: absolute;
-	margin: 0;
-	padding: 0 66px 0 66px;
-	top: 0;
-	height: 422px;
-	width: inherit;
-	background: #71f5ea;
-	text-align: justify;
-	opacity: 0;
-	transition: 0.5s;
-	transform: translateX(20px);
-	width: inherit;
-	
-}
-.wrapper_img div  figcaption h2{
-	margin-bottom: 15px;
-	margin-top: 150px;
-	padding: 0;
-	font-family: 'Merriweather', serif;
-	font-size: 20px;
-	color: rgba(255, 255, 255, 1);
-	text-transform: uppercase;
-}
-.wrapper_img div:nth-of-type(1)  figcaption h2{
-	margin-bottom: 38px;
-	margin-top: 60px;
-	padding: 0;
-	font-family: 'Merriweather', serif;
-	font-size: 20px;
-	color: rgba(0, 0, 0, 1);
-	text-transform: uppercase;
-}
-.wrapper_img div figcaption p{
-	margin-bottom: 5px;
-	padding: 0;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	color: rgba(255, 255, 255, 1);
-	width: 85%;
-	line-height: 1.7;
-}
-.wrapper_img div:nth-of-type(1) figcaption p{
-	margin-bottom: 35px;
-	padding: 0;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	color: rgba(0, 0, 0, 0.5);
-	width: 70%;
-	line-height: 1.7;
-}
-.wrapper_img div figure  figcaption p a {
-	color: rgba(255, 255, 255, 1);
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	text-transform: uppercase;
-	line-height: 1.7;
-	text-decoration: none;
-}
-.wrapper_img div figure  figcaption p a img{
-	height: 15px;
-	width: 22px;
-	opacity: 1;
-}
-.wrapper_img div:nth-of-type(1) figure  figcaption p a img{
-	height: 17px;
-	width: 17px;
-	opacity: 0.8;
-}
-.wrapper_img div:hover figure  figcaption{
-	opacity: 0.6;
-	transform: translateX(0);
-	cursor: pointer;
-}
-.wrapper_img div.hover-one:hover figure  figcaption{
-	opacity: 1;
-	transform: translateX(0);
-	cursor: pointer;
-}
-		
 /**/
 footer{
 	padding: 0 75px;
